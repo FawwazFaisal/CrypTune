@@ -1,0 +1,10 @@
+RSA Encrypted Chat
+Android Mobile Based 
+text??
+image???
+Key Length
+RSA256
+Chat Size??
+sms 160 character
+Key Sharing
+2^16

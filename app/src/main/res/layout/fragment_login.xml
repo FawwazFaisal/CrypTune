@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:visibility="visible"
+    tools:context=".Fragments.Login"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppTheme_bg_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#353535"
+        android:paddingStart="20dp"
+        android:paddingTop="100dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="100dp"
+        android:visibility="visible">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:textColorHint="#FFFFFF"
+            android:visibility="visible"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#FFFFFF"
+            app:boxStrokeWidth="1dp"
+            app:boxStrokeWidthFocused="1dp"
+            app:errorEnabled="true"
+            app:errorTextColor="@color/red"
+            app:hintTextColor="#C8C8C8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:shadowColor="#FFFFFF"
+                android:textColor="@color/white"
+                android:textColorHint="#B4FFFFFF"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editText6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#FFFFFF"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#FFFFFF"
+            app:boxStrokeWidth="1dp"
+            app:boxStrokeWidthFocused="1dp"
+            app:errorEnabled="true"
+            app:errorTextColor="@color/red"
+            app:hintTextColor="#C8C8C8"
+            app:layout_constraintEnd_toEndOf="@+id/editText4"
+            app:layout_constraintStart_toStartOf="@+id/editText4"
+            app:layout_constraintTop_toBottomOf="@+id/editText4"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#FFFFFF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:shadowColor="#FFFFFF"
+                android:textColor="@color/white"
+                android:textColorHint="#B4FFFFFF"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"
+                android:visibility="visible"
+                app:passwordToggleDrawable="@drawable/icon_selector"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#B4FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/red"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/editText6"
+            app:layout_constraintStart_toStartOf="@+id/editText6"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_ripple"
+            android:backgroundTint="#1C1A1A"
+            android:backgroundTintMode="src_in"
+            android:fontFamily="@font/roboto_medium"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/editText6"
+            app:layout_constraintStart_toStartOf="@+id/editText6"
+            app:layout_constraintTop_toBottomOf="@+id/forgotPass" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

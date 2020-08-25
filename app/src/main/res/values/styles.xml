@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="titleEnabled">false</item>
+    </style>
+
+    <style name="AppTheme_bg_main_activity" parent="AppTheme.NoActionBar">
+        <item name="android:background">@drawable/background_image</item>
+    </style>
+
+    <style name="TransActionBar" parent="AppTheme.NoActionBar">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+
+</resources>

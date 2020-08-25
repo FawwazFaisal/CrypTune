@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65067114704",
+    "firebase_url": "https://cryptune-cca3f.firebaseio.com",
+    "project_id": "cryptune-cca3f",
+    "storage_bucket": "cryptune-cca3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65067114704:android:da55a9e180b1ace8b43ed5",
+        "android_client_info": {
+          "package_name": "com.omnitech.cryptune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65067114704-qhh7ncl2br6dbger6aoh4dvvudat2nj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omnitech.cryptune",
+            "certificate_hash": "9735938bc84861db5d1655b9b9591f163b773349"
+          }
+        },
+        {
+          "client_id": "65067114704-f1u1up60bla712m15kth48pci82k7v65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdEGk8mpzre2m9ZpdS8oxNItl0UsfObik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65067114704-f1u1up60bla712m15kth48pci82k7v65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
